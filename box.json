@@ -1,0 +1,41 @@
+{
+    "name":"Responsive - Fitness Content Box Theme",
+    "version":"1.0",
+    "author":"Lucid Outsourcing Solutions",
+    "location":"https://github.com/LucidSolutions/cbfitness/archive/master.zip",
+    "homepage":"https://github.com/LucidSolutions/cbfitness/",
+    "documentation":"",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/LucidSolutions/cbfitness/"
+    },
+    "bugs":"https://github.com/LucidSolutions/cbfitness/issues",
+    "slug":"cbfitness",
+    "shortDescription":"Responsive - Fitness Content Box Theme",
+    "description":"Responsive - Fitness Content Box Theme",
+    "instructions":"",
+    "changelog":"",
+    "type":"contentbox-themes",
+    "license":[
+        {
+            "type":"Apache2",
+            "URL":"http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "contributors":[
+        "Lucid Solutions <info@lucidsolutions.in>",
+    ],
+    "dependencies":{
+    },
+    "devDependencies":{ 
+    },
+    "installPaths":{
+    },
+    "scripts":{
+    },
+    "ignore":[
+         "**/.*",
+        "build.xml",
+        "tests"
+    ]
+}
