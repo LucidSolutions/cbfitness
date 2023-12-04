@@ -20,7 +20,7 @@
 				<!--- Are we filtering by category? --->
 				<cfif len( rc.category )>
 					<p class="infoBar h2 mb-3">
-						Category Filtering: '#rc.category#'
+						Category Filtering: '#encodeForHTML( rc.category )#'
 					</p>
 					<p class="buttonBar">
 						<a href="#cb.linkBlog()#" class="btn btn-secondary btn-sm mb-4" title="Remove filter and view all entries">Remove Filter</a>
@@ -29,7 +29,7 @@
 		
 				<!--- Are we searching --->
 				<cfif len( rc.q )>
-					<p class="infoBar h2 mb-3">Searching by: '#rc.q#'</p>
+					<p class="infoBar h2 mb-3">Searching by: '#encodeForHTML( rc.q )#'</p>
 					<p class="buttonBar">
 						<a href="#cb.linkBlog()#" class="btn btn-secondary btn-sm mb-4" title="Clear search and view all entries">Clear Search</a>
 					</p>
